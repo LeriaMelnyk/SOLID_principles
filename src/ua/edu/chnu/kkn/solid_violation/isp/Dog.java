@@ -1,11 +1,6 @@
 package ua.edu.chnu.kkn.solid_violation.isp;
 
-public class Dog implements Animal {
-    @Override
-    public void fly() {
-
-    }
-
+public class Dog implements BarkableRunnable {
     @Override
     public void run() {
         System.out.print("Dog is running");
